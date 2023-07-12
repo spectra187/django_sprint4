@@ -8,7 +8,7 @@ class BlogAdmin(admin.ModelAdmin):
 
     list_editable = (
         "is_published",
-        )
+    )
 
 
 class CommentAdmin(admin.TabularInline):
